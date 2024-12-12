@@ -10,7 +10,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="images\settings-cog.png" />
     <None Remove="MVVM\View\abcde.jpg" />
     <None Remove="MVVM\View\reno.jpg" />
   </ItemGroup>
@@ -32,7 +31,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="images\settings-cog.png" />
     <Resource Include="images\reno.jpg" />
     <Resource Include="images\renoo.jpg" />
   </ItemGroup>
