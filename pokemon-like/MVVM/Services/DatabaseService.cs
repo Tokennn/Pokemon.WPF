@@ -17,7 +17,7 @@ namespace PokemonLike.Services
         {
             if (string.IsNullOrEmpty(connectionString))
             {
-                throw new ArgumentException("La chaîne de connexion ne peut pas être vide.", nameof(connectionString));
+                throw new ArgumentException("The connection string cannot be empty!", nameof(connectionString));
             }
 
             _connectionString = connectionString;
@@ -36,7 +36,7 @@ namespace PokemonLike.Services
         {
             if (string.IsNullOrEmpty(connectionString))
             {
-                throw new InvalidOperationException("La chaîne de connexion n'est pas définie.");
+                throw new InvalidOperationException("Connection string is not defined !");
             }
 
             _connectionString = connectionString;
@@ -48,7 +48,7 @@ namespace PokemonLike.Services
             }
             catch (Exception ex)
             {
-                throw new InvalidOperationException("Impossible de se connecter à la base de données.", ex);
+                throw new InvalidOperationException("Unable to connect to the database !", ex);
             }
         }
 
@@ -57,7 +57,7 @@ namespace PokemonLike.Services
         {
             if (string.IsNullOrEmpty(_connectionString))
             {
-                throw new InvalidOperationException("La chaîne de connexion n'a pas été initialisée.");
+                throw new InvalidOperationException("The connection string was not initialized !");
             }
 
             using var context = new DatabaseContext(_connectionString);
@@ -69,7 +69,7 @@ namespace PokemonLike.Services
         {
             if (string.IsNullOrEmpty(_connectionString))
             {
-                throw new InvalidOperationException("La chaîne de connexion n'a pas été initialisée.");
+                throw new InvalidOperationException("The connection string was not initialized !");
             }
 
             using var context = new DatabaseContext(_connectionString);
@@ -80,7 +80,7 @@ namespace PokemonLike.Services
         {
             if (string.IsNullOrEmpty(_connectionString))
             {
-                throw new InvalidOperationException("La chaîne de connexion n'a pas été initialisée.");
+                throw new InvalidOperationException("The connection string was not initialized !");
             }
 
             using var context = new DatabaseContext(_connectionString);

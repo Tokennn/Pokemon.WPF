@@ -1,6 +1,5 @@
 using System.Windows;
 using PokemonLike.Services;
-using PokemonLike.Properties;
 
 namespace PokemonLike.Views
 {
@@ -36,6 +35,11 @@ namespace PokemonLike.Views
 
             MessageBox.Show("Settings saved successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
             this.Close();
+        }
+
+        private void ConnectionStringTextBox_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+
         }
     }
 }

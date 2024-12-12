@@ -1,6 +1,5 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
-using pokemon_like;
 using PokemonLike.Models;
 using PokemonLike.Services;
 

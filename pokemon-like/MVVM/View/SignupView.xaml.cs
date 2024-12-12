@@ -1,8 +1,7 @@
 using System.Windows;
 using PokemonLike.Services;
-using PokemonLike.Properties;
 using PokemonLike.Models;
-using pokemon_like;
+
 
 namespace PokemonLike.Views
 {
