@@ -5,7 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
         Title="Login" Height="350" Width="400">
+    <Window.Background>
+        <ImageBrush ImageSource="/MVVM/View/reno.jpg" Stretch="UniformToFill"/>
+    </Window.Background>
     <Grid Margin="10">
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="3*"/>
             <ColumnDefinition/>
@@ -16,7 +22,7 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <TextBlock Text="Login" FontSize="24" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="158,0,0,0" />
+        <TextBlock Text="Login" FontSize="24" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="158,0,0,0" Foreground="White" />
         <TextBox Grid.Row="1" x:Name="UsernameTextBox" VerticalAlignment="Center" Margin="10,0,10,0" Background="#FFD9D9D9" BorderBrush="Black" Grid.ColumnSpan="2" />
         <PasswordBox Grid.Row="2" x:Name="PasswordBox" VerticalAlignment="Center" Margin="10,0,10,0" Background="#FFDFDFDF" BorderBrush="Black" Grid.ColumnSpan="2" />
         <Button Grid.Row="3" Content="Login"  HorizontalAlignment="Left" Click="LoginButton_Click" Margin="36,6,0,47" Style="{StaticResource PokemonButtonStyle}" Width="128" Background="#FFD10000" />
