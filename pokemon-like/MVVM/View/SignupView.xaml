@@ -6,7 +6,7 @@
         mc:Ignorable="d"
         Title="Signup" Height="350" Width="400">
     <Window.Background>
-        <ImageBrush ImageSource="/MVVM/View/renoo.jpg" Stretch="UniformToFill"/>
+        <ImageBrush ImageSource="C:\Users\$0L0\Source\Repos\Pokemon.WPF\pokemon-like\images\renoo.jpg" Stretch="UniformToFill"/>
     </Window.Background>
     <Grid Margin="10">
         <Grid.RowDefinitions>
@@ -15,10 +15,24 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <TextBlock Grid.Row="0" Text="Signup" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" />
         <TextBox Grid.Row="1" x:Name="UsernameTextBox" VerticalAlignment="Center" Margin="10" Background="#FFD9D9D9" BorderBrush="Black" />
         <PasswordBox Grid.Row="2" x:Name="PasswordBox" VerticalAlignment="Center" Margin="10" Background="#FFD9D9D9" BorderBrush="Black" />
-        <Button Grid.Row="3" Content="Signup" HorizontalAlignment="Left" Click="SignupButton_Click" Margin="38,7,0,45" Style="{StaticResource PokemonButtonStyle}" Width="128" />
-        <Button Grid.Row="3" Content="Login" HorizontalAlignment="Left" Click="LoginButton_Click" Margin="222,7,0,45" Style="{StaticResource PokemonButtonStyle}" Width="128" Background="#FFFFFA25" Foreground="Black"/>
+        <Button Grid.Row="3" Content="Signup" HorizontalAlignment="Left" Click="SignupButton_Click" Margin="38,7,0,45" Style="{StaticResource PokemonButtonStyle}" Width="128" FontFamily="Ravie" Background="#FF0016CC" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Grid.Row="3" Content="Login" HorizontalAlignment="Left" Click="LoginButton_Click" Margin="222,7,0,45" Style="{StaticResource PokemonButtonStyle}" Width="128" Background="#FFFFFA25" Foreground="Black" FontFamily="Ravie" FontWeight="Bold">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <TextBlock FontFamily="Ravie" FontSize="36" HorizontalAlignment="Center" TextAlignment="Center" Margin="0,25,0,66" Width="249" Foreground="#FFFFCA00" Grid.RowSpan="2" Text="signup">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="5" 
+                    Color="#29669E" 
+                    BlurRadius="0" 
+                    Opacity="1" />
+            </TextBlock.Effect></TextBlock>
     </Grid>
 </Window>

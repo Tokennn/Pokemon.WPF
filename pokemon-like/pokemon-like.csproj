@@ -13,7 +13,7 @@
     <None Remove="fonts\Pokemon.ttf" />
     <None Remove="images\settings-cog.png" />
     <None Remove="MVVM\View\abcde.jpg" />
-    <None Remove="MVVM\View\Anneau-hobbit.jpg" />
+    <None Remove="MVVM\View\reno.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,8 +34,8 @@
   <ItemGroup>
     <Resource Include="fonts\Pokemon.ttf" />
     <Resource Include="images\settings-cog.png" />
-    <Resource Include="MVVM\View\abcde.jpg" />
-    <Resource Include="MVVM\View\Anneau-hobbit.jpg" />
+    <Resource Include="images\reno.jpg" />
+    <Resource Include="images\renoo.jpg" />
   </ItemGroup>
 
   <ItemGroup>
