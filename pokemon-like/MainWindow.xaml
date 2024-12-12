@@ -6,21 +6,31 @@
         xmlns:local="clr-namespace:pokemon_like"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\$0L0\Source\Repos\Pokemon.WPF\pokemon-like\images\roooo.jpg" Stretch="UniformToFill"/>
+    </Window.Background>
     <Grid>
-        <TextBlock Text="Pokémoins" FontFamily="pack://application:,,,/Fonts/#Pokemon Solid" FontSize="64" Foreground="#FFCB05" HorizontalAlignment="Center" TextAlignment="Center" Margin="0,72,0,-72">
+        <TextBlock FontFamily="Ravie" FontSize="64" HorizontalAlignment="Center" TextAlignment="Center" Margin="0,139,0,193" Text="Poké !" Width="286" Foreground="#FFFFCA00">
             <TextBlock.Effect>
                 <DropShadowEffect ShadowDepth="5" 
                                   Color="#29669E" 
                                   BlurRadius="0" 
                                   Opacity="1" />
-            </TextBlock.Effect>
-        </TextBlock>
+            </TextBlock.Effect></TextBlock>
         <Button Name="settings" Width="30" Height="30" HorizontalAlignment="Right" VerticalAlignment="Top" Click="ConnectButton_Click" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Margin="0,20,20,0">
             <Button.Content>
                 <Image Source="images/settings-cog.png" Width="28" Height="29" RenderTransformOrigin="-0.518,1.45"/>
             </Button.Content>
         </Button>
-        <Button Content="Login" HorizontalAlignment="Center" VerticalAlignment="Top" Click="LoginButton_Click" Margin="0,230,0,0" Style="{StaticResource PokemonButtonStyle}" Width="128"/>
-        <Button Content="Signup" HorizontalAlignment="Center" VerticalAlignment="Top" Click="SignupButton_Click" Margin="0,260,0,0" Style="{StaticResource PokemonButtonStyle}" Width="128"/>
+        <Button Content="Login" HorizontalAlignment="Left" VerticalAlignment="Top" Click="LoginButton_Click" Margin="96,281,0,0" Style="{StaticResource PokemonButtonStyle}" Width="167" Height="50" FontFamily="Ravie" Background="#FF0016CC">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Signup" HorizontalAlignment="Left" VerticalAlignment="Top" Click="SignupButton_Click" Margin="520,281,0,0" Style="{StaticResource PokemonButtonStyle}" Width="163" Height="54" Background="#FFFFFA25" Foreground="Black" FontFamily="Ravie">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
     </Grid>
 </Window>
