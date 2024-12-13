@@ -75,7 +75,7 @@ Initialize the data by following the instructions below.
 
 ## Initialize the data
 
-Thanks to a preconfigured table we can import it into a new database :
+**Thanks to a preconfigured table we can import it into a new database** :
 
 ```bash
 
