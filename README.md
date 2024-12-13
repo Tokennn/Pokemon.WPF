@@ -59,12 +59,10 @@ For this project we worked on these technologies
 * [![C#][C#]][C#-url]
 * [![WPF][WPF]][WPF-url]
 * [![SQL Server Express][SQL Server Express]][SQL Server Express-url]
+* [![Git][Git]][Git-url]
 
-Language: C#
 
-Framework: Windows Presentation Foundation (WPF)
 
-Database: SQL Server Express
 
 ORM: Entity Framework
 
@@ -171,7 +169,9 @@ CommunityToolkit.Mvvm : Simplifies MVVM development.
  
 [SQL Server Express]: https://img.shields.io/badge/SQL%20Server%20Express-grey?style=for-the-badge&logo=microsoft-sql-server&logoColor=white
 [SQL Server Express-url]: https://www.microsoft.com/fr-fr/download/details.aspx?id=101064
- 
+
+[Git]: https://img.shields.io/badge/Git-grey?style=for-the-badge&logo=git
+[Git-url]: https://git-scm.com
  
  
 [product-screenshot]: images/screenshot.png
