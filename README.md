@@ -1,6 +1,9 @@
 # Pokemon-Like 
 
-![Battle Simulation](pokemon-like/hello.gif)
+
+<p align="center">
+  <img src="pokemon-like/hello.gif" alt="Battle Simulation">
+</p>
 
 
 ## Project Overview
