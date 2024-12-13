@@ -1,11 +1,11 @@
 # Pokemon-Like 
 
+<a name="readme-top"></a>
 
 <p align="center">
   <img src="pokemon-like/hello.gif" alt="Battle Simulation">
 </p>
 
-<a name="readme-top"></a>
 
 ## Project Overview
 
