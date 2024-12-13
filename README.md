@@ -24,11 +24,11 @@ For this project we worked on these technologies
 
 The project uses the MVVM (Model-View-ViewModel) pattern to ensure a clear separation of responsibilities.
 
-Model: Contains data classes and manages business logic.
+**Model** : Contains data classes and manages business logic.
 
-View: Represents the user interface (XAML).
+**View** : Represents the user interface (XAML).
 
-ViewModel: Links the model to the view.
+**ViewModel** : Links the model to the view.
 
 ## Database model
 
@@ -88,6 +88,10 @@ INSERT INTO Users (Username, PasswordHash) VALUES ('admin', 'hashed_password');
 
 ...
 ````
+
+## Contact 
+
+[@Tokennn] (https://github.com/Tokennn)
 
 <!-- (Markdown img link) : -->
  
