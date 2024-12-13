@@ -57,9 +57,8 @@ A score system for each monster defeated.
 For this project we worked on these technologies
  
 [![C#][C#]][C#-url]
-[![Css][Css]][Css-url]
-[![Go][Go]][Go-url]
-[![JS][JS]][JS-url]
+[![WPF][WPF]][WPF-url]
+[![SQL Server Express][SQL Server Express]][SQL Server Express-url]
 
 Language: C#
 
@@ -173,9 +172,6 @@ CommunityToolkit.Mvvm : Simplifies MVVM development.
 [SQL Server Express]: https://img.shields.io/badge/SQL%20Server%20Express-grey?style=for-the-badge&logo=microsoft-sql-server&logoColor=white
 [SQL Server Express-url]: https://www.microsoft.com/fr-fr/download/details.aspx?id=101064
  
- 
-[JS]:  https://img.shields.io/badge/JavaScript-grey?style=for-the-badge&logo=javascript
-[JS-url]: https://www.javascript.com/
  
  
 [product-screenshot]: images/screenshot.png
