@@ -167,11 +167,11 @@ CommunityToolkit.Mvvm : Simplifies MVVM development.
 [C#]: https://img.shields.io/badge/C%23-grey?style=for-the-badge&logo=c-sharp
 [C#-url]: https://www.w3schools.com/cs/index.php#:~:text=C%23%20(C-Sharp)%20is,apps%2C%20games%20and%20much%20more.
  
-[Css]: https://img.shields.io/badge/CSS-grey?style=for-the-badge&logo=css3&logoColor=blue
-[Css-url]: https://www.w3schools.com/css/
+[WPF]: https://img.shields.io/badge/WPF-grey?style=for-the-badge&logo=microsoft
+[WPF-url]: https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/?view=netdesktop-9.0
  
-[Go]: https://img.shields.io/badge/Go-grey?style=for-the-badge&logo=go
-[Go-url]: https://go.dev/
+[SQL Server Express]: https://img.shields.io/badge/SQL%20Server%20Express-grey?style=for-the-badge&logo=microsoft-sql-server&logoColor=white
+[SQL Server Express-url]: https://www.microsoft.com/fr-fr/download/details.aspx?id=101064
  
  
 [JS]:  https://img.shields.io/badge/JavaScript-grey?style=for-the-badge&logo=javascript
