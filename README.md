@@ -4,54 +4,6 @@
 
 This project consists of developing a Pokemon-Like type game using the Windows Presentation Foundation (WPF) framework in C#. The game allows you to manage monsters and spells, connect via an ergonomic user interface and simulate turn-based battles. The game data is managed via a SQL Server Express database.
 
-Main features
-
-Login screen
-
-Allows users to log in with a username and password.
-
-Passwords are hashed (BASE).
-
-Information is validated and stored in the database.
-
-"Settings" tab
-
-Configuration of the database connection with a customizable URL.
-
-Initialization of basic data (monsters, spells, users, etc.).
-
-Monster management window
-
-Displays all available monsters.
-
-Allows you to select a monster to play.
-
-Details the information of the selected monster (Name, HP, associated spells, etc.).
-
-Spells tab
-
-Lists all the spells in the game.
-
-Details each spell (Name, damage, description).
-
-Includes a spell sorting system by monster.
-
-Combat tab
-
-Simulates a fight between a player monster and an enemy monster.
-
-Includes:
-
-The use of spells to inflict damage.
-
-A visible life point bar for each monster.
-
-The generation of a new enemy monster with improved statistics.
-
-A button to restart a fight.
-
-A score system for each monster defeated.
-
 ## Technologies and tools used
 
 For this project we worked on these technologies
