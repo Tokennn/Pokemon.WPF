@@ -5,6 +5,7 @@
   <img src="pokemon-like/hello.gif" alt="Battle Simulation">
 </p>
 
+<a name="readme-top"></a>
 
 ## Project Overview
 
@@ -20,6 +21,8 @@ For this project we worked on these technologies
 * [![Git][Git]][Git-url]
 * [![ORM][ORM]][ORM-url]
 
+  <p align="right">(<a href="#readme-top"><strong>Back to top</strong></a>)</p>
+
 ## Architecture and model
 
 The project uses the MVVM (Model-View-ViewModel) pattern to ensure a clear separation of responsibilities.
@@ -29,6 +32,8 @@ The project uses the MVVM (Model-View-ViewModel) pattern to ensure a clear separ
 **View** : Represents the user interface (XAML).
 
 **ViewModel** : Links the model to the view.
+
+<p align="right">(<a href="#readme-top"><strong>Back to top</strong></a>)</p>
 
 ## Database model
 
@@ -42,6 +47,8 @@ Spells: Manages spells.
 
 CombatLogs: Stores combat logs (optional).
 
+<p align="right">(<a href="#readme-top"><strong>Back to top</strong></a>)</p>
+
 ## Project initialization
 
 
@@ -54,8 +61,9 @@ CombatLogs: Stores combat logs (optional).
 
 - [Git](https://git-scm.com/downloads) for version control and collaboration.
 
-## Installation
+  <p align="right">(<a href="#readme-top"><strong>Back to top</strong></a>)</p>
 
+## Installation
 
 > [!NOTE]
 > Request access to be added as a collaborator.
