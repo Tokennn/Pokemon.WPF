@@ -1,6 +1,6 @@
-# Pokemon-Like in C# with WPF
+# Pokemon-Like in C# with WPF 👍
 
-Project Description
+## Project Overview
 
 This project consists of developing a Pokemon-Like type game using the Windows Presentation Foundation (WPF) framework in C#. The game allows you to manage monsters and spells, connect via an ergonomic user interface and simulate turn-based battles. The game data is managed via a SQL Server Express database.
 
@@ -52,7 +52,14 @@ A button to restart a fight.
 
 A score system for each monster defeated.
 
-Technologies and tools used
+## Technologies and tools used
+
+For this project we worked on these technologies
+ 
+[![C#][C#]][C#-url]
+[![Css][Css]][Css-url]
+[![Go][Go]][Go-url]
+[![JS][JS]][JS-url]
 
 Language: C#
 
@@ -153,3 +160,22 @@ Entity Framework: Manages database operations.
 Newtonsoft.Json : (Optional) To handle JSON data if needed.
 
 CommunityToolkit.Mvvm : Simplifies MVVM development.
+
+
+<!-- (Markdown img link) : -->
+ 
+[C#]: https://img.shields.io/badge/C%23-grey?style=for-the-badge&logo=c-sharp
+[C#-url]: https://www.w3schools.com/cs/index.php#:~:text=C%23%20(C-Sharp)%20is,apps%2C%20games%20and%20much%20more.
+ 
+[Css]: https://img.shields.io/badge/CSS-grey?style=for-the-badge&logo=css3&logoColor=blue
+[Css-url]: https://www.w3schools.com/css/
+ 
+[Go]: https://img.shields.io/badge/Go-grey?style=for-the-badge&logo=go
+[Go-url]: https://go.dev/
+ 
+ 
+[JS]:  https://img.shields.io/badge/JavaScript-grey?style=for-the-badge&logo=javascript
+[JS-url]: https://www.javascript.com/
+ 
+ 
+[product-screenshot]: images/screenshot.png
