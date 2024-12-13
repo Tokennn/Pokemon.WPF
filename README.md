@@ -97,6 +97,8 @@ INSERT INTO Users (Username, PasswordHash) VALUES ('admin', 'hashed_password');
 ...
 ````
 
+<p align="right">(<a href="#readme-top"><strong>Back to top</strong></a>)</p>
+
 ## Contact 
 
 [@Tokennn] (https://github.com/Tokennn)
