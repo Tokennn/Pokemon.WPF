@@ -56,9 +56,9 @@ A score system for each monster defeated.
 
 For this project we worked on these technologies
  
-[![C#][C#]][C#-url]
-[![WPF][WPF]][WPF-url]
-[![SQL Server Express][SQL Server Express]][SQL Server Express-url]
+* [![C#][C#]][C#-url]
+* [![WPF][WPF]][WPF-url]
+* [![SQL Server Express][SQL Server Express]][SQL Server Express-url]
 
 Language: C#
 
