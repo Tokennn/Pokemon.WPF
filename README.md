@@ -56,7 +56,16 @@ CombatLogs: Stores combat logs (optional).
 
 ## Installation
 
+
+> [!NOTE]
+> Request access to be added as a collaborator.
+
 Clone the repository from GitHub:
+
+```bash
+     git clone https://github.com/Tokennn/Pokemon.WPF.git
+     cd pokemon-like/
+````
 
 git clone https://github.com/your-user/pokemon-like-wpf.git
 
