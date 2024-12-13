@@ -48,11 +48,12 @@ CombatLogs: Stores combat logs (optional).
 > [!IMPORTANT]
 > To get started with this project, you'll need:
 
-- [SQL](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) SQL Server Express installed on your local machine.
+- [SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) installed on your local machine.
 
 Visual Studio with WPF and Entity Framework extensions enabled.
 
-Access to Git.
+- (
+- [Git](https://git-scm.com/downloads) for version control and collaboration.
 
 ## Installation
 
