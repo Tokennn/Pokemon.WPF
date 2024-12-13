@@ -67,8 +67,6 @@ Clone the repository from GitHub:
      cd pokemon-like/
 ````
 
-git clone https://github.com/your-user/pokemon-like-wpf.git
-
 Open the project in Visual Studio.
 
 Configure the database connection URL in the "Settings" tab.
@@ -77,9 +75,9 @@ Initialize the data by following the instructions below.
 
 ## Initialize the data
 
-The default initialization scripts (SQL) are provided in the Database folder of the project.
+Thanks to a preconfigured table we can import it into a new database :
 
-Run the script in your SQL Express server to create and populate the base tables:
+```bash
 
 CREATE TABLE Users (
 Id INT PRIMARY KEY IDENTITY,
@@ -88,37 +86,8 @@ PasswordHash NVARCHAR(256)
 );
 INSERT INTO Users (Username, PasswordHash) VALUES ('admin', 'hashed_password');
 
-CREATE TABLE Monsters (
-Id INT PRIMARY KEY IDENTITY,
-Name NVARCHAR(50),
-HP INT
-);
-
-CREATE TABLE Spells (
-Id INT PRIMARY KEY IDENTITY,
-Name NVARCHAR(50),
-Damage INT,
-MonsterId INT FOREIGN KEY REFERENCES Monsters(Id)
-);
-
-How it works
-
-Launch the application from Visual Studio.
-
-Enter the database connection information in the "Settings" tab.
-
-Log in with an existing user account.
-
-Navigate between the different windows to manage your monsters, view spells, or engage in combat.
-
-Packages used
-
-Entity Framework: Manages database operations.
-
-Newtonsoft.Json : (Optional) To handle JSON data if needed.
-
-CommunityToolkit.Mvvm : Simplifies MVVM development.
-
+...
+````
 
 <!-- (Markdown img link) : -->
  
