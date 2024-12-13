@@ -39,13 +39,13 @@ The project uses the MVVM (Model-View-ViewModel) pattern to ensure a clear separ
 
 The provided model must be respected without modification. Example tables:
 
-Users: Manages users.
+**Users** : Manages users.
 
-Monsters: Manages monsters.
+**Monsters** : Manages monsters.
 
-Spells: Manages spells.
+**Spells** : Manages spells.
 
-CombatLogs: Stores combat logs (optional).
+**CombatLogs** : Stores combat logs (optional).
 
 <p align="right">(<a href="#readme-top"><strong>Back to top</strong></a>)</p>
 
