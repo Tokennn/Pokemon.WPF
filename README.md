@@ -50,9 +50,8 @@ CombatLogs: Stores combat logs (optional).
 
 - [SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) installed on your local machine.
 
-Visual Studio with WPF and Entity Framework extensions enabled.
+- [Visual Studio](https://visualstudio.microsoft.com/fr/) with WPF and Entity Framework extensions enabled.
 
-- (
 - [Git](https://git-scm.com/downloads) for version control and collaboration.
 
 ## Installation
