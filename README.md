@@ -62,7 +62,7 @@ For this project we worked on these technologies
 * [![Git][Git]][Git-url]
 * [![ORM][ORM]][ORM-url]
 
-##Architecture and model
+## Architecture and model
 
 Architecture
 
@@ -74,7 +74,7 @@ View: Represents the user interface (XAML).
 
 ViewModel: Links the model to the view.
 
-Database model
+## Database model
 
 The provided model must be respected without modification. Example tables:
 
@@ -86,7 +86,7 @@ Spells: Manages spells.
 
 CombatLogs: Stores combat logs (optional).
 
-Project initialization
+## Project initialization
 
 Prerequisites
 
@@ -96,7 +96,7 @@ Visual Studio with WPF and Entity Framework extensions enabled.
 
 Access to Git.
 
-Installation
+## Installation
 
 Clone the repository from GitHub:
 
@@ -108,7 +108,7 @@ Configure the database connection URL in the "Settings" tab.
 
 Initialize the data by following the instructions below.
 
-Initialize the data
+## Initialize the data
 
 The default initialization scripts (SQL) are provided in the Database folder of the project.
 
