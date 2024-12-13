@@ -60,6 +60,7 @@ For this project we worked on these technologies
 * [![WPF][WPF]][WPF-url]
 * [![SQL Server Express][SQL Server Express]][SQL Server Express-url]
 * [![Git][Git]][Git-url]
+* [![ORM][ORM]][ORM-url]
 
 
 
@@ -172,6 +173,9 @@ CommunityToolkit.Mvvm : Simplifies MVVM development.
 
 [Git]: https://img.shields.io/badge/Git-grey?style=for-the-badge&logo=git
 [Git-url]: https://git-scm.com
+
+[ORM]: https://img.shields.io/badge/ORM-grey?style=for-the-badge&logo=database
+[ORM-url]: https://learn.microsoft.com/fr-fr/ef/
  
  
 [product-screenshot]: images/screenshot.png
