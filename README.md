@@ -1,4 +1,4 @@
-# Pokemon-Like 
+# Pokemon-Like 🦖
 
 <a name="readme-top"></a>
 
