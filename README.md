@@ -62,14 +62,7 @@ For this project we worked on these technologies
 * [![Git][Git]][Git-url]
 * [![ORM][ORM]][ORM-url]
 
-
-
-
-ORM: Entity Framework
-
-Version control: Git
-
-Architecture and model
+##Architecture and model
 
 Architecture
 
