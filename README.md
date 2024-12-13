@@ -1,6 +1,6 @@
 # Pokemon-Like 
 
-![Battle Simulation](Musique/hello.gif)
+![Battle Simulation](pokemon-like/hello.gif)
 
 
 ## Project Overview
