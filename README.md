@@ -44,7 +44,10 @@ CombatLogs: Stores combat logs (optional).
 
 ## Project initialization
 
-Prerequisites
+
+[!Prerequisites]
+To get started with this project, you'll need:
+
 
 SQL Server Express installed.
 
