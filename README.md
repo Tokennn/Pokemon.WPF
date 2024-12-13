@@ -1,155 +1,155 @@
-# Pokemon-Like en C# avec WPF
+# Pokemon-Like in C# with WPF
 
-Description du projet
+Project Description
 
-Ce projet consiste à développer un jeu de type Pokemon-Like en utilisant le framework Windows Presentation Foundation (WPF) en C#. Le jeu permet de gérer des monstres et des sorts, de se connecter via une interface utilisateur ergonomique et de simuler des combats au tour par tour. Les données du jeu sont gérées via une base de données SQL Server Express.
+This project consists of developing a Pokemon-Like type game using the Windows Presentation Foundation (WPF) framework in C#. The game allows you to manage monsters and spells, connect via an ergonomic user interface and simulate turn-based battles. The game data is managed via a SQL Server Express database.
 
-Fonctionnalités principales
+Main features
 
-Écran de connexion (Login)
+Login screen
 
-Permet aux utilisateurs de se connecter avec un nom d'utilisateur et un mot de passe.
+Allows users to log in with a username and password.
 
-Les mots de passe sont hachés (BASE).
+Passwords are hashed (BASE).
 
-Les informations sont validées et stockées dans la base de données.
+Information is validated and stored in the database.
 
-Onglet "Settings"
+"Settings" tab
 
-Configuration de la connexion à la base de données avec une URL personnalisable.
+Configuration of the database connection with a customizable URL.
 
-Initialisation des données de base (monstres, sorts, utilisateurs, etc.).
+Initialization of basic data (monsters, spells, users, etc.).
 
-Fenêtre de gestion des monstres
+Monster management window
 
-Affiche tous les monstres disponibles.
+Displays all available monsters.
 
-Permet de sélectionner un monstre pour jouer.
+Allows you to select a monster to play.
 
-Détaille les informations du monstre sélectionné (Nom, HP, spells associés, etc.).
+Details the information of the selected monster (Name, HP, associated spells, etc.).
 
-Onglet des spells
+Spells tab
 
-Liste tous les sorts du jeu.
+Lists all the spells in the game.
 
-Détaille chaque sort (Nom, dégâts, description).
+Details each spell (Name, damage, description).
 
-Inclut un système de tri des sorts par monstre.
+Includes a spell sorting system by monster.
 
-Onglet de combat
+Combat tab
 
-Simule un combat entre un monstre joueur et un monstre ennemi.
+Simulates a fight between a player monster and an enemy monster.
 
-Inclut :
+Includes:
 
-L’utilisation des spells pour infliger des dégâts.
+The use of spells to inflict damage.
 
-Une barre de points de vie visible pour chaque monstre.
+A visible life point bar for each monster.
 
-La génération d'un nouveau monstre ennemi avec des statistiques améliorées.
+The generation of a new enemy monster with improved statistics.
 
-Un bouton pour relancer un combat.
+A button to restart a fight.
 
-Un système de score à chaque monstre vaincu.
+A score system for each monster defeated.
 
-Technologies et outils utilisés
+Technologies and tools used
 
-Langage : C#
+Language: C#
 
-Framework : Windows Presentation Foundation (WPF)
+Framework: Windows Presentation Foundation (WPF)
 
-Base de données : SQL Server Express
+Database: SQL Server Express
 
-ORM : Entity Framework
+ORM: Entity Framework
 
-Contrôle de version : Git
+Version control: Git
 
-Architecture et modèle
+Architecture and model
 
 Architecture
 
-Le projet utilise le modèle MVVM (Model-View-ViewModel) pour garantir une séparation claire des responsabilités.
+The project uses the MVVM (Model-View-ViewModel) pattern to ensure a clear separation of responsibilities.
 
-Model : Contient les classes de données et gère la logique métier.
+Model: Contains data classes and manages business logic.
 
-View : Représente l’interface utilisateur (XAML).
+View: Represents the user interface (XAML).
 
-ViewModel : Fait le lien entre le modèle et la vue.
+ViewModel: Links the model to the view.
 
-Modèle de base de données
+Database model
 
-Le modèle fourni doit être respecté sans modification. Exemple de tables :
+The provided model must be respected without modification. Example tables:
 
-Users : Gère les utilisateurs.
+Users: Manages users.
 
-Monsters : Gère les monstres.
+Monsters: Manages monsters.
 
-Spells : Gère les sorts.
+Spells: Manages spells.
 
-CombatLogs : Stocke les journaux de combats (optionnel).
+CombatLogs: Stores combat logs (optional).
 
-Initialisation du projet
+Project initialization
 
-Prérequis
+Prerequisites
 
-SQL Server Express installé.
+SQL Server Express installed.
 
-Visual Studio avec les extensions WPF et Entity Framework activées.
+Visual Studio with WPF and Entity Framework extensions enabled.
 
-Accès à Git.
+Access to Git.
 
 Installation
 
-Clonez le dépôt depuis GitHub :
+Clone the repository from GitHub:
 
-git clone https://github.com/votre-utilisateur/pokemon-like-wpf.git
+git clone https://github.com/your-user/pokemon-like-wpf.git
 
-Ouvrez le projet dans Visual Studio.
+Open the project in Visual Studio.
 
-Configurez l'URL de connexion à la base de données dans l'onglet "Settings".
+Configure the database connection URL in the "Settings" tab.
 
-Initialisez les données en suivant les instructions ci-dessous.
+Initialize the data by following the instructions below.
 
-Initialisation des données
+Initialize the data
 
-Les scripts d’initialisation par défaut (SQL) sont fournis dans le dossier Database du projet.
+The default initialization scripts (SQL) are provided in the Database folder of the project.
 
-Exécutez le script dans votre serveur SQL Express pour créer et remplir les tables de base :
+Run the script in your SQL Express server to create and populate the base tables:
 
 CREATE TABLE Users (
-    Id INT PRIMARY KEY IDENTITY,
-    Username NVARCHAR(50),
-    PasswordHash NVARCHAR(256)
+Id INT PRIMARY KEY IDENTITY,
+Username NVARCHAR(50),
+PasswordHash NVARCHAR(256)
 );
 INSERT INTO Users (Username, PasswordHash) VALUES ('admin', 'hashed_password');
 
 CREATE TABLE Monsters (
-    Id INT PRIMARY KEY IDENTITY,
-    Name NVARCHAR(50),
-    HP INT
+Id INT PRIMARY KEY IDENTITY,
+Name NVARCHAR(50),
+HP INT
 );
 
 CREATE TABLE Spells (
-    Id INT PRIMARY KEY IDENTITY,
-    Name NVARCHAR(50),
-    Damage INT,
-    MonsterId INT FOREIGN KEY REFERENCES Monsters(Id)
+Id INT PRIMARY KEY IDENTITY,
+Name NVARCHAR(50),
+Damage INT,
+MonsterId INT FOREIGN KEY REFERENCES Monsters(Id)
 );
 
-Fonctionnement
+How it works
 
-Lancez l'application depuis Visual Studio.
+Launch the application from Visual Studio.
 
-Renseignez les informations de connexion à la base de données dans l'onglet "Settings".
+Enter the database connection information in the "Settings" tab.
 
-Connectez-vous avec un compte utilisateur existant.
+Log in with an existing user account.
 
-Naviguez entre les différentes fenêtres pour gérer vos monstres, consulter les sorts, ou engager un combat.
+Navigate between the different windows to manage your monsters, view spells, or engage in combat.
 
-Packages utilisés
+Packages used
 
-Entity Framework : Gère les opérations sur la base de données.
+Entity Framework: Manages database operations.
 
-Newtonsoft.Json : (Optionnel) Pour gérer les données JSON si besoin.
+Newtonsoft.Json : (Optional) To handle JSON data if needed.
 
-CommunityToolkit.Mvvm : Simplifie le développement MVVM.
+CommunityToolkit.Mvvm : Simplifies MVVM development.
