@@ -22,8 +22,6 @@ For this project we worked on these technologies
 
 ## Architecture and model
 
-Architecture
-
 The project uses the MVVM (Model-View-ViewModel) pattern to ensure a clear separation of responsibilities.
 
 Model: Contains data classes and manages business logic.
