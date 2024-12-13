@@ -7,7 +7,7 @@
     <Grid Margin="10">
         <TabControl>
             <TabItem Header="Monsters">
-                <local:MonsterManagementControl/>
+                <local:MonsterManagementControl Loaded="MonsterManagementControl_Loaded_1"/>
             </TabItem>
             
             <TabItem Header="Spells">
