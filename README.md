@@ -75,11 +75,11 @@ Clone the repository from GitHub:
      cd pokemon-like/
 ````
 
-Open the project in Visual Studio.
+➡️ Open the project in Visual Studio.
 
-Configure the database connection URL in the "Settings" tab.
+➡️ Configure the database connection URL in the "Settings" tab.
 
-Initialize the data by following the instructions below.
+➡️ Initialize the data by following the instructions below.
 
 ## Initialize the data
 
@@ -96,6 +96,20 @@ INSERT INTO Users (Username, PasswordHash) VALUES ('admin', 'hashed_password');
 
 ...
 ````
+
+➡️ When you launch the game, you just need to click on the button (white square) to access your database connection : 
+
+<p align="center">
+  <img src="pokemon-like/images/img.png" alt="Battle Simulation">
+</p>
+
+➡️ Then once you get there :
+
+<p align="center">
+  <img src="pokemon-like/images/imgg.png" alt="Battle Simulation">
+</p>
+
+You just have to **write : Server="nameofyourcomputeur"\SQLEXPRESS;Database=ExerciceMonster;Trusted_Connection=True;TrustServerCertificate=True**
 
 <p align="right">(<a href="#readme-top"><strong>Back to top</strong></a>)</p>
 
