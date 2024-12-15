@@ -109,7 +109,12 @@ INSERT INTO Users (Username, PasswordHash) VALUES ('admin', 'hashed_password');
   <img src="pokemon-like/images/imgg.png" alt="Battle Simulation">
 </p>
 
-You just have to **write : Server="nameofyourcomputeur"\SQLEXPRESS;Database=ExerciceMonster;Trusted_Connection=True;TrustServerCertificate=True**
+You just have to **write : 
+
+```bash
+Server="nameofyourcomputeur"\SQLEXPRESS;Database=ExerciceMonster;Trusted_Connection=True;TrustServerCertificate=True**
+
+````
 
 <p align="right">(<a href="#readme-top"><strong>Back to top</strong></a>)</p>
 
