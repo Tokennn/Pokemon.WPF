@@ -53,7 +53,7 @@ The provided model must be respected without modification. Example tables:
 
 
 > [!IMPORTANT]
-> To get started with this project, you'll need:
+> To get started with this project, you'll need :
 
 - [SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) installed on your local machine.
 
@@ -66,7 +66,7 @@ The provided model must be respected without modification. Example tables:
 ## Installation
 
 > [!NOTE]
-> Request access to be added as a collaborator.
+> Request access to be added as a collaborator
 
 Clone the repository from GitHub:
 
