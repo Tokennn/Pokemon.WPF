@@ -10,6 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="images\roooo.jpg" />
     <None Remove="MVVM\View\abcde.jpg" />
     <None Remove="MVVM\View\reno.jpg" />
   </ItemGroup>
@@ -33,6 +34,7 @@
   <ItemGroup>
     <Resource Include="images\reno.jpg" />
     <Resource Include="images\renoo.jpg" />
+    <Resource Include="images\roooo.jpg" />
   </ItemGroup>
 
   <ItemGroup>
