@@ -16,13 +16,17 @@
             <RowDefinition Height="Auto" MinHeight="2.96" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        <TextBox Grid.Row="1" x:Name="ConnectionStringTextBox" Margin="0,65,0,-42" TextChanged="ConnectionStringTextBox_TextChanged" BorderBrush="Black" Background="#FFABADB3" Grid.RowSpan="3" Grid.ColumnSpan="2" />
+        <TextBox Grid.Row="1" x:Name="ConnectionStringTextBox" Margin="0,65,0,-42" TextChanged="ConnectionStringTextBox_TextChanged" BorderBrush="Black" Background="#FFABADB3" Grid.RowSpan="3" Grid.ColumnSpan="2" >
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
         <Button Grid.Row="3" Content="Test Connection" Click="TestConnection_Click" HorizontalAlignment="Left" Style="{StaticResource PokemonButtonStyle}" Margin="31,54,0,-100" Width="140" Foreground="White" Background="#FF0016CC" FontSize="11" FontFamily="Ravie" Grid.ColumnSpan="2" >
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Button Grid.Row="3" Content="Save Settings" Click="SaveSettings_Click" HorizontalAlignment="Right" Margin="0,61,39,-93" Style="{StaticResource PokemonButtonStyle}" Width="129" Background="#FFFFFA25" Foreground="Black" FontFamily="Ravie" FontSize="12" Grid.ColumnSpan="2" >
+        <Button Grid.Row="3" Content="Save Settings" Click="SaveSettings_Click" HorizontalAlignment="Right" Margin="0,54,25,-100" Style="{StaticResource PokemonButtonStyle}" Width="145" Background="#FFFFFA25" Foreground="Black" FontFamily="Ravie" FontSize="12" Grid.ColumnSpan="2" >
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>

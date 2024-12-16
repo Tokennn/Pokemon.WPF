@@ -22,8 +22,16 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <TextBox Grid.Row="1" x:Name="UsernameTextBox" VerticalAlignment="Center" Margin="10,0,10,0" Background="#FFD9D9D9" BorderBrush="Black" Grid.ColumnSpan="2" />
-        <PasswordBox Grid.Row="2" x:Name="PasswordBox" VerticalAlignment="Center" Margin="10,0,10,0" Background="#FFDFDFDF" BorderBrush="Black" Grid.ColumnSpan="2" />
+        <TextBox Grid.Row="1" x:Name="UsernameTextBox" VerticalAlignment="Center" Margin="10,0,10,0" Background="#FFD9D9D9" BorderBrush="Black" Grid.ColumnSpan="2" >
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <PasswordBox Grid.Row="2" x:Name="PasswordBox" VerticalAlignment="Center" Margin="10,0,10,0" Background="#FFDFDFDF" BorderBrush="Black" Grid.ColumnSpan="2" >
+            <PasswordBox.Effect>
+                <DropShadowEffect/>
+            </PasswordBox.Effect>
+        </PasswordBox>
         <Button Grid.Row="3" Content="Login" Click="LoginButton_Click" Margin="36,6,121,39" Style="{StaticResource PokemonButtonStyle}" Background="#FF0016CC" FontFamily="Ravie" >
             <Button.Effect>
                 <DropShadowEffect/>
