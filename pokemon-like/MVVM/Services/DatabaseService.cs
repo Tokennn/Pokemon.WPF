@@ -1,9 +1,5 @@
-using System;
-using System.Linq;
-using System.Windows;
 using Microsoft.EntityFrameworkCore;
 using PokemonLike.Models;
-using PokemonLike.Properties;
 
 namespace PokemonLike.Services
 {

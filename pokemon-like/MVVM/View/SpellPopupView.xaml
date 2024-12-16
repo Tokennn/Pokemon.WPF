@@ -6,7 +6,7 @@
         Background="Transparent"
         Width="300" Height="150"
         Topmost="True">
-    <Border Background="Black" Opacity="0.8" CornerRadius="10" Padding="20">
+    <Border Opacity="0.8" CornerRadius="10" Padding="20" Background="#FFA48686">
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock x:Name="DamageText" FontSize="36" Foreground="White" FontWeight="Bold" HorizontalAlignment="Center" />
             <TextBlock x:Name="SpellText" FontSize="18" Foreground="White" HorizontalAlignment="Center" />

@@ -1,323 +1,611 @@
 [
-    {
+  {
+    "Id": 1,
+    "Name": "Pikachu",
+    "Health": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+    "Spells": [
+      {
         "Id": 1,
-        "Name": "Pikachu",
-        "Health": 100,
-        "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
-        "Spells": [
-            {
-                "Id": 1,
-                "Name": "Thunder Shock",
-                "Damage": 40,
-                "Description": "A jolt of electricity"
-            },
-            {
-                "Id": 2,
-                "Name": "Quick Attack",
-                "Damage": 20,
-                "Description": "A quick and sharp attack"
-            },
-            {
-                "Id": 3,
-                "Name": "Electro Ball",
-                "Damage": 50,
-                "Description": "Hurls an electric orb"
-            },
-            {
-                "Id": 4,
-                "Name": "Volt Tackle",
-                "Damage": 90,
-                "Description": "A powerful electric tackle"
-            }
-        ]
-    },
-    {
+        "Name": "Thunder Shock",
+        "Damage": 40,
+        "Description": "A jolt of electricity"
+      },
+      {
         "Id": 2,
-        "Name": "Charizard",
-        "Health": 120,
-        "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
-        "Spells": [
-            {
-                "Id": 5,
-                "Name": "Flamethrower",
-                "Damage": 90,
-                "Description": "A blast of intense fire"
-            },
-            {
-                "Id": 6,
-                "Name": "Wing Attack",
-                "Damage": 60,
-                "Description": "A powerful wing strike"
-            },
-            {
-                "Id": 7,
-                "Name": "Fire Spin",
-                "Damage": 35,
-                "Description": "Traps the target in flames"
-            },
-            {
-                "Id": 8,
-                "Name": "Dragon Claw",
-                "Damage": 80,
-                "Description": "Slashes with dragon claws"
-            }
-        ]
-    },
-    {
+        "Name": "Quick Attack",
+        "Damage": 20,
+        "Description": "A quick and sharp attack"
+      },
+      {
         "Id": 3,
-        "Name": "Bulbasaur",
-        "Health": 80,
-        "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
-        "Spells": [
-            {
-                "Id": 9,
-                "Name": "Vine Whip",
-                "Damage": 45,
-                "Description": "Strikes with vines"
-            },
-            {
-                "Id": 10,
-                "Name": "Tackle",
-                "Damage": 30,
-                "Description": "A basic body slam"
-            },
-            {
-                "Id": 11,
-                "Name": "Razor Leaf",
-                "Damage": 55,
-                "Description": "Cuts with sharp leaves"
-            },
-            {
-                "Id": 12,
-                "Name": "Solar Beam",
-                "Damage": 120,
-                "Description": "Gathers sunlight to attack"
-            }
-        ]
-    },
-    {
+        "Name": "Electro Ball",
+        "Damage": 50,
+        "Description": "Hurls an electric orb"
+      },
+      {
         "Id": 4,
-        "Name": "Squirtle",
-        "Health": 90,
-        "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
-        "Spells": [
-            {
-                "Id": 13,
-                "Name": "Water Gun",
-                "Damage": 40,
-                "Description": "Shoots a blast of water"
-            },
-            {
-                "Id": 14,
-                "Name": "Bubble",
-                "Damage": 20,
-                "Description": "Creates bubbles to attack"
-            },
-            {
-                "Id": 15,
-                "Name": "Aqua Tail",
-                "Damage": 70,
-                "Description": "Attacks with a water-coated tail"
-            },
-            {
-                "Id": 16,
-                "Name": "Hydro Pump",
-                "Damage": 110,
-                "Description": "Blasts water with high force"
-            }
-        ]
-    },
-    {
-        "Id": 5,
-        "Name": "Eevee",
-        "Health": 85,
-        "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
-        "Spells": [
-            {
-                "Id": 17,
-                "Name": "Tackle",
-                "Damage": 30,
-                "Description": "A basic body slam"
-            },
-            {
-                "Id": 18,
-                "Name": "Quick Attack",
-                "Damage": 20,
-                "Description": "A fast and swift strike"
-            },
-            {
-                "Id": 19,
-                "Name": "Swift",
-                "Damage": 60,
-                "Description": "Shoots star-shaped rays"
-            },
-            {
-                "Id": 20,
-                "Name": "Double-Edge",
-                "Damage": 120,
-                "Description": "A reckless high-damage attack"
-            }
-        ]
-    },
-    {
-        "Id": 6,
-        "Name": "Mewtwo",
-        "Health": 150,
-        "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
-        "Spells": [
-            {
-                "Id": 21,
-                "Name": "Psychic",
-                "Damage": 90,
-                "Description": "A powerful psychic attack"
-            },
-            {
-                "Id": 22,
-                "Name": "Shadow Ball",
-                "Damage": 80,
-                "Description": "Launches a shadowy orb"
-            },
-            {
-                "Id": 23,
-                "Name": "Aura Sphere",
-                "Damage": 80,
-                "Description": "Unleashes a sphere of energy"
-            },
-            {
-                "Id": 24,
-                "Name": "Ice Beam",
-                "Damage": 90,
-                "Description": "Fires a beam of ice"
-            }
-        ]
-    },
-    {
-        "Id": 7,
-        "Name": "Jigglypuff",
-        "Health": 95,
-        "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
-        "Spells": [
-            {
-                "Id": 25,
-                "Name": "Sing",
-                "Damage": 0,
-                "Description": "Puts the opponent to sleep"
-            },
-            {
-                "Id": 26,
-                "Name": "Pound",
-                "Damage": 40,
-                "Description": "A basic physical attack"
-            },
-            {
-                "Id": 27,
-                "Name": "Double Slap",
-                "Damage": 35,
-                "Description": "Hits the target multiple times"
-            },
-            {
-                "Id": 28,
-                "Name": "Hyper Voice",
-                "Damage": 90,
-                "Description": "Emits a powerful sound wave"
-            }
-        ]
-    },
-    {
-        "Id": 8,
-        "Name": "Snorlax",
-        "Health": 200,
-        "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
-        "Spells": [
-            {
-                "Id": 29,
-                "Name": "Body Slam",
-                "Damage": 85,
-                "Description": "A heavy body slam"
-            },
-            {
-                "Id": 30,
-                "Name": "Rest",
-                "Damage": 0,
-                "Description": "Recovers health by sleeping"
-            },
-            {
-                "Id": 31,
-                "Name": "Crunch",
-                "Damage": 80,
-                "Description": "Bites the target with sharp teeth"
-            },
-            {
-                "Id": 32,
-                "Name": "Earthquake",
-                "Damage": 100,
-                "Description": "Causes a powerful tremor"
-            }
-        ]
-    },
-    {
+        "Name": "Volt Tackle",
+        "Damage": 90,
+        "Description": "A powerful electric tackle"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "Jigglypuff",
+    "Health": 95,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+    "Spells": [
+      {
+        "Id": 25,
+        "Name": "Sing",
+        "Damage": 0,
+        "Description": "Puts the opponent to sleep"
+      },
+      {
+        "Id": 26,
+        "Name": "Pound",
+        "Damage": 40,
+        "Description": "A basic physical attack"
+      },
+      {
+        "Id": 27,
+        "Name": "Double Slap",
+        "Damage": 35,
+        "Description": "Hits the target multiple times"
+      },
+      {
+        "Id": 28,
+        "Name": "Hyper Voice",
+        "Damage": 90,
+        "Description": "Emits a powerful sound wave"
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "Bulbasaur",
+    "Health": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+    "Spells": [
+      {
         "Id": 9,
-        "Name": "Lucario",
-        "Health": 110,
-        "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png",
-        "Spells": [
-            {
-                "Id": 33,
-                "Name": "Aura Sphere",
-                "Damage": 80,
-                "Description": "A sphere of energy"
-            },
-            {
-                "Id": 34,
-                "Name": "Quick Attack",
-                "Damage": 20,
-                "Description": "A swift and sharp strike"
-            },
-            {
-                "Id": 35,
-                "Name": "Close Combat",
-                "Damage": 120,
-                "Description": "A highly damaging melee attack"
-            },
-            {
-                "Id": 36,
-                "Name": "Metal Claw",
-                "Damage": 50,
-                "Description": "Attacks with sharp metallic claws"
-            }
-        ]
-    },
-    {
+        "Name": "Vine Whip",
+        "Damage": 45,
+        "Description": "Strikes with vines"
+      },
+      {
         "Id": 10,
-        "Name": "Greninja",
-        "Health": 105,
-        "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png",
-        "Spells": [
-            {
-                "Id": 37,
-                "Name": "Water Shuriken",
-                "Damage": 40,
-                "Description": "Throws a shuriken of water"
-            },
-            {
-                "Id": 38,
-                "Name": "Night Slash",
-                "Damage": 70,
-                "Description": "A slashing attack under the cover of darkness"
-            },
-            {
-                "Id": 39,
-                "Name": "Hydro Pump",
-                "Damage": 110,
-                "Description": "Blasts water with high force"
-            },
-            {
-                "Id": 40,
-                "Name": "Extrasensory",
-                "Damage": 80,
-                "Description": "Attacks with an odd, unseeable power"
-            }
-        ]
-    }
+        "Name": "Tackle",
+        "Damage": 30,
+        "Description": "A basic body slam"
+      },
+      {
+        "Id": 11,
+        "Name": "Razor Leaf",
+        "Damage": 55,
+        "Description": "Cuts with sharp leaves"
+      },
+      {
+        "Id": 12,
+        "Name": "Solar Beam",
+        "Damage": 120,
+        "Description": "Gathers sunlight to attack"
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Name": "Squirtle",
+    "Health": 90,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+    "Spells": [
+      {
+        "Id": 13,
+        "Name": "Water Gun",
+        "Damage": 40,
+        "Description": "Shoots a blast of water"
+      },
+      {
+        "Id": 14,
+        "Name": "Bubble",
+        "Damage": 20,
+        "Description": "Creates bubbles to attack"
+      },
+      {
+        "Id": 15,
+        "Name": "Aqua Tail",
+        "Damage": 70,
+        "Description": "Attacks with a water-coated tail"
+      },
+      {
+        "Id": 16,
+        "Name": "Hydro Pump",
+        "Damage": 110,
+        "Description": "Blasts water with high force"
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Name": "Snorlax",
+    "Health": 200,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+    "Spells": [
+      {
+        "Id": 29,
+        "Name": "Body Slam",
+        "Damage": 85,
+        "Description": "A heavy body slam"
+      },
+      {
+        "Id": 30,
+        "Name": "Rest",
+        "Damage": 0,
+        "Description": "Recovers health by sleeping"
+      },
+      {
+        "Id": 31,
+        "Name": "Crunch",
+        "Damage": 80,
+        "Description": "Bites the target with sharp teeth"
+      },
+      {
+        "Id": 32,
+        "Name": "Earthquake",
+        "Damage": 120,
+        "Description": "Causes a powerful tremor"
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "Name": "Mewtwo",
+    "Health": 150,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+    "Spells": [
+      {
+        "Id": 21,
+        "Name": "Psychic",
+        "Damage": 90,
+        "Description": "A powerful psychic attack"
+      },
+      {
+        "Id": 22,
+        "Name": "Shadow Ball",
+        "Damage": 80,
+        "Description": "Launches a shadowy orb"
+      },
+      {
+        "Id": 23,
+        "Name": "Aura Sphere",
+        "Damage": 80,
+        "Description": "Unleashes a sphere of energy"
+      },
+      {
+        "Id": 24,
+        "Name": "Ice Beam",
+        "Damage": 90,
+        "Description": "Fires a beam of ice"
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "Name": "Charizard",
+    "Health": 120,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+    "Spells": [
+      {
+        "Id": 5,
+        "Name": "Flamethrower",
+        "Damage": 90,
+        "Description": "A blast of intense fire"
+      },
+      {
+        "Id": 6,
+        "Name": "Wing Attack",
+        "Damage": 60,
+        "Description": "A powerful wing strike"
+      },
+      {
+        "Id": 7,
+        "Name": "Fire Spin",
+        "Damage": 35,
+        "Description": "Traps the target in flames"
+      },
+      {
+        "Id": 8,
+        "Name": "Dragon Claw",
+        "Damage": 80,
+        "Description": "Slashes with dragon claws"
+      }
+    ]
+  },
+  {
+    "Id": 8,
+    "Name": "Eevee",
+    "Health": 85,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+    "Spells": [
+      {
+        "Id": 17,
+        "Name": "Tackle",
+        "Damage": 30,
+        "Description": "A basic body slam"
+      },
+      {
+        "Id": 18,
+        "Name": "Quick Attack",
+        "Damage": 20,
+        "Description": "A fast and swift strike"
+      },
+      {
+        "Id": 19,
+        "Name": "Swift",
+        "Damage": 60,
+        "Description": "Shoots star-shaped rays"
+      },
+      {
+        "Id": 20,
+        "Name": "Double-Edge",
+        "Damage": 120,
+        "Description": "A reckless high-damage attack"
+      }
+    ]
+  },
+  {
+    "Id": 9,
+    "Name": "Lucario",
+    "Health": 110,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png",
+    "Spells": [
+      {
+        "Id": 33,
+        "Name": "Aura Sphere",
+        "Damage": 80,
+        "Description": "A sphere of energy"
+      },
+      {
+        "Id": 34,
+        "Name": "Quick Attack",
+        "Damage": 20,
+        "Description": "A swift and sharp strike"
+      },
+      {
+        "Id": 35,
+        "Name": "Close Combat",
+        "Damage": 120,
+        "Description": "A highly damaging melee attack"
+      },
+      {
+        "Id": 36,
+        "Name": "Metal Claw",
+        "Damage": 50,
+        "Description": "Attacks with sharp metallic claws"
+      }
+    ]
+  },
+  {
+    "Id": 10,
+    "Name": "Gengar",
+    "Health": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+    "Spells": [
+      {
+        "Id": 201,
+        "Name": "Shadow Ball",
+        "Damage": 80,
+        "Description": "Hurls a shadowy blob at the opponent"
+      },
+      {
+        "Id": 202,
+        "Name": "Sludge Bomb",
+        "Damage": 90,
+        "Description": "Lobs a poisonous sludge at the opponent"
+      },
+      {
+        "Id": 203,
+        "Name": "Hypnosis",
+        "Damage": 0,
+        "Description": "Puts the opponent to sleep"
+      },
+      {
+        "Id": 204,
+        "Name": "Dream Eater",
+        "Damage": 100,
+        "Description": "Eats the dreams of a sleeping opponent to restore health"
+      }
+    ]
+  },
+  {
+    "Id": 11,
+    "Name": "Mew",
+    "Health": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+    "Spells": [
+      {
+        "Id": 101,
+        "Name": "Psychic",
+        "Damage": 90,
+        "Description": "A strong telekinetic attack"
+      },
+      {
+        "Id": 102,
+        "Name": "Ancient Power",
+        "Damage": 60,
+        "Description": "An attack using mysterious ancient energy"
+      },
+      {
+        "Id": 103,
+        "Name": "Aura Sphere",
+        "Damage": 80,
+        "Description": "Launches a blast of aura energy"
+      },
+      {
+        "Id": 104,
+        "Name": "Transform",
+        "Damage": 0,
+        "Description": "Copies the opponent's appearance and abilities"
+      }
+    ]
+  },
+  {
+    "Id": 12,
+    "Name": "Lugia",
+    "Health": 106,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/249.png",
+    "Spells": [
+      {
+        "Id": 201,
+        "Name": "Aeroblast",
+        "Damage": 100,
+        "Description": "A powerful gust of wind with a high critical-hit ratio"
+      },
+      {
+        "Id": 202,
+        "Name": "Hydro Pump",
+        "Damage": 110,
+        "Description": "Blasts water at high force to damage the opponent"
+      },
+      {
+        "Id": 203,
+        "Name": "Extrasensory",
+        "Damage": 80,
+        "Description": "Attacks with a psychic wave that may cause the opponent to flinch"
+      },
+      {
+        "Id": 204,
+        "Name": "Recover",
+        "Damage": 2,
+        "Description": "Recovers up to half of the user's maximum HP"
+      }
+    ]
+  },
+  {
+    "Id": 13,
+    "Name": "Espeon",
+    "Health": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png",
+    "Spells": [
+      {
+        "Id": 201,
+        "Name": "Psybeam",
+        "Damage": 65,
+        "Description": "Fires a peculiar ray that may confuse the target"
+      },
+      {
+        "Id": 202,
+        "Name": "Future Sight",
+        "Damage": 120,
+        "Description": "A delayed psychic attack"
+      },
+      {
+        "Id": 203,
+        "Name": "Morning Sun",
+        "Damage": 0,
+        "Description": "Restores the user's health based on weather conditions"
+      },
+      {
+        "Id": 204,
+        "Name": "Psychic",
+        "Damage": 90,
+        "Description": "A strong telekinetic attack"
+      }
+    ]
+  },
+  {
+    "Id": 14,
+    "Name": "Jolteon",
+    "Health": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+    "Spells": [
+      {
+        "Id": 201,
+        "Name": "Thunderbolt",
+        "Damage": 90,
+        "Description": "A powerful electric blast crashes down on the target"
+      },
+      {
+        "Id": 202,
+        "Name": "Thunder Wave",
+        "Damage": 0,
+        "Description": "A weak electric shock that paralyzes the target"
+      },
+      {
+        "Id": 203,
+        "Name": "Pin Missile",
+        "Damage": 25,
+        "Description": "Sharp pins are fired to strike the target multiple times"
+      },
+      {
+        "Id": 204,
+        "Name": "Double Kick",
+        "Damage": 30,
+        "Description": "A physical attack that hits the target twice in a row"
+      }
+    ]
+  },
+  {
+    "Id": 16,
+    "Name": "Vaporeon",
+    "Health": 130,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+    "Spells": [
+      {
+        "Id": 201,
+        "Name": "Water Gun",
+        "Damage": 40,
+        "Description": "Shoots a jet of water at the opponent"
+      },
+      {
+        "Id": 202,
+        "Name": "Aqua Tail",
+        "Damage": 90,
+        "Description": "Hits the target with a swinging water-covered tail"
+      },
+      {
+        "Id": 203,
+        "Name": "Hydro Pump",
+        "Damage": 110,
+        "Description": "Blasts water at high pressure to attack the opponent"
+      },
+      {
+        "Id": 204,
+        "Name": "Acid Armor",
+        "Damage": 0,
+        "Description": "Increases the user's defense by altering its cellular structure"
+      }
+    ]
+  },
+  {
+    "Id": 17,
+    "Name": "Blastoise",
+    "Health": 120,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+    "Spells": [
+      {
+        "Id": 201,
+        "Name": "Hydro Pump",
+        "Damage": 110,
+        "Description": "A high-powered water attack"
+      },
+      {
+        "Id": 202,
+        "Name": "Water Gun",
+        "Damage": 40,
+        "Description": "A basic water-type attack"
+      },
+      {
+        "Id": 203,
+        "Name": "Skull Bash",
+        "Damage": 85,
+        "Description": "A two-turn attack that raises defense before hitting"
+      },
+      {
+        "Id": 204,
+        "Name": "Ice Beam",
+        "Damage": 90,
+        "Description": "Fires an icy blast that may freeze the opponent"
+      }
+    ]
+  },
+  {
+    "Id": 18,
+    "Name": "Arcanine",
+    "Health": 90,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+    "Spells": [
+      {
+        "Id": 201,
+        "Name": "Flamethrower",
+        "Damage": 90,
+        "Description": "Unleashes a powerful stream of fire"
+      },
+      {
+        "Id": 202,
+        "Name": "Extreme Speed",
+        "Damage": 80,
+        "Description": "A fast and forceful attack"
+      },
+      {
+        "Id": 203,
+        "Name": "Crunch",
+        "Damage": 80,
+        "Description": "A bite attack that may lower defense"
+      },
+      {
+        "Id": 204,
+        "Name": "Heat Wave",
+        "Damage": 95,
+        "Description": "Engulfs the target in intense heat"
+      }
+    ]
+  },
+  {
+    "Id": 19,
+    "Name": "Greninja",
+    "Health": 105,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png",
+    "Spells": [
+      {
+        "Id": 37,
+        "Name": "Water Shuriken",
+        "Damage": 40,
+        "Description": "Throws a shuriken of water"
+      },
+      {
+        "Id": 38,
+        "Name": "Night Slash",
+        "Damage": 70,
+        "Description": "A slashing attack under the cover of darkness"
+      },
+      {
+        "Id": 39,
+        "Name": "Hydro Pump",
+        "Damage": 110,
+        "Description": "Blasts water with high force"
+      },
+      {
+        "Id": 40,
+        "Name": "Extrasensory",
+        "Damage": 80,
+        "Description": "Attacks with an odd, unseeable power"
+      }
+    ]
+  },
+  {
+    "Id": 20,
+    "Name": "Ramoloss",
+    "Health": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png",
+    "Spells": [
+      {
+        "Id": 101,
+        "Name": "Confusion",
+        "Damage": 50,
+        "Description": "A basic psychic attack that may confuse the target."
+      },
+      {
+        "Id": 102,
+        "Name": "Amnesia",
+        "Damage": 0,
+        "Description": "Sharply raises the user's defense by increasing their mental focus."
+      },
+      {
+        "Id": 103,
+        "Name": "Yawn",
+        "Damage": 0,
+        "Description": "Causes the target to fall asleep after a turn."
+      },
+      {
+        "Id": 104,
+        "Name": "Water Gun",
+        "Damage": 40,
+        "Description": "A simple water attack that may reduce the target's speed."
+      }
+    ]
+  }
 ]
 

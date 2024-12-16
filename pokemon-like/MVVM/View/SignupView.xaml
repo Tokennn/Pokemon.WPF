@@ -25,12 +25,12 @@
                 <DropShadowEffect/>
             </PasswordBox.Effect>
         </PasswordBox>
-        <Button Grid.Row="3" Content="Signup" HorizontalAlignment="Left" Click="SignupButton_Click" Margin="38,7,0,45" Style="{StaticResource PokemonButtonStyle}" Width="128" FontFamily="Ravie" Background="#FF0016CC" >
+        <Button Grid.Row="3" Content="Signup" HorizontalAlignment="Left" Click="SignupButton_Click" Margin="38,7,0,36" Style="{StaticResource PokemonButtonStyle}" Width="128" FontFamily="Ravie" Background="#FF0016CC" >
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Button Grid.Row="3" Content="Login" HorizontalAlignment="Left" Click="LoginButton_Click" Margin="222,7,0,45" Style="{StaticResource PokemonButtonStyle}" Width="128" Background="#FFFFFA25" Foreground="Black" FontFamily="Ravie" FontWeight="Bold">
+        <Button Grid.Row="3" Content="Login" HorizontalAlignment="Left" Click="LoginButton_Click" Margin="222,7,0,35" Style="{StaticResource PokemonButtonStyle}" Width="128" Background="#FFFFFA25" Foreground="Black" FontFamily="Ravie" FontWeight="Bold">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>

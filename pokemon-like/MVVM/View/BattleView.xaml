@@ -2,7 +2,7 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Battle" Height="555" Width="800" Background="#FFD9D9D9">
-    <Grid Margin="10,10,10,91" Background="Black">
+    <Grid Margin="10,10,10,91" Background="#FF8C8C8C">
         <Grid.Effect>
             <DropShadowEffect/>
         </Grid.Effect>
@@ -22,7 +22,6 @@
         <StackPanel Orientation="Horizontal" Margin="10,36,10,10" Grid.RowSpan="2">
             <!-- Player Monster -->
             <StackPanel Margin="10" Width="350">
-                <TextBlock Text="Player's Monster" FontWeight="Bold" HorizontalAlignment="Center" />
                 <TextBlock x:Name="PlayerMonsterName" HorizontalAlignment="Center" />
                 <Image x:Name="PlayerMonsterImage" Width="350" Height="190" HorizontalAlignment="Center" Margin="0,10,0,10" />
                 <ProgressBar x:Name="PlayerHpBar" Height="10" Width="300" Maximum="100" BorderBrush="Black" Background="Red" >
@@ -34,7 +33,6 @@
 
             <!-- Enemy Monster -->
             <StackPanel Margin="10" Width="350">
-                <TextBlock Text="Enemy Monster" FontWeight="Bold" HorizontalAlignment="Center" />
                 <TextBlock x:Name="EnemyMonsterName" HorizontalAlignment="Center" />
                 <Image x:Name="EnemyMonsterImage" Width="350" Height="190" HorizontalAlignment="Center" Margin="0,10,0,10" />
                 <ProgressBar x:Name="EnemyHpBar" Height="10" Width="300" Maximum="100" Background="#FFE90000" BorderBrush="Black" >

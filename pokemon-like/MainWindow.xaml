@@ -17,7 +17,7 @@
                                   BlurRadius="0" 
                                   Opacity="1" />
             </TextBlock.Effect></TextBlock>
-        <Button Name="settings" Width="63" Height="64" HorizontalAlignment="Right" VerticalAlignment="Top" Click="ConnectButton_Click" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Margin="0,51,39,0"/>
+        <Button Name="settings" Width="63" Height="64" HorizontalAlignment="Right" VerticalAlignment="Top" Click="ConnectButton_Click" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Margin="0,51,39,0" Panel.ZIndex="1"/>
         <Button Content="Login" HorizontalAlignment="Left" VerticalAlignment="Top" Click="LoginButton_Click" Margin="96,281,0,0" Style="{StaticResource PokemonButtonStyle}" Width="167" Height="50" FontFamily="Ravie" Background="#FF0016CC">
             <Button.Effect>
                 <DropShadowEffect/>
@@ -28,6 +28,6 @@
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Image Source="images/mou.png" RenderTransformOrigin="-0.518,1.45" ClipToBounds="True" Margin="691,42,46,310"/>
+        <Image Source="images/mou.png" RenderTransformOrigin="-0.518,1.45" ClipToBounds="True" Margin="691,42,46,310" Stretch="UniformToFill" Panel.ZIndex="1"/>
     </Grid>
 </Window>

@@ -6,16 +6,24 @@
     
     <Grid Margin="10">
         <TabControl>
-            <TabItem Header="Monsters">
-                <local:MonsterManagementControl Loaded="MonsterManagementControl_Loaded_1"/>
+            <TabItem Header="Monsters" BorderBrush="Black">
+                <local:MonsterManagementControl Loaded="MonsterManagementControl_Loaded_1" BorderBrush="Black"/>
             </TabItem>
             
-            <TabItem Header="Spells">
-                <local:SpellsManagementControl/>
+            <TabItem Header="Spells" BorderBrush="Black">
+                <local:SpellsManagementControl Loaded="SpellsManagementControl_Loaded" BorderBrush="Black">
+                    <local:SpellsManagementControl.Effect>
+                        <DropShadowEffect/>
+                    </local:SpellsManagementControl.Effect>
+                </local:SpellsManagementControl>
             </TabItem>
 
             <TabItem Header="Account">
-                <local:AccountManagementControl/>
+                <local:AccountManagementControl Background="Black" BorderBrush="Black">
+                    <local:AccountManagementControl.Effect>
+                        <DropShadowEffect/>
+                    </local:AccountManagementControl.Effect>
+                </local:AccountManagementControl>
             </TabItem>
         </TabControl>
     </Grid>

@@ -19,6 +19,10 @@
         </StackPanel>
 
         <!-- Spells List -->
-        <ListBox x:Name="SpellsListBox" Grid.Row="1" DisplayMemberPath="Name" SelectionChanged="SpellListBox_SelectionChanged"/>
+        <ListBox x:Name="SpellsListBox" Grid.Row="1" DisplayMemberPath="Name" SelectionChanged="SpellListBox_SelectionChanged">
+            <ListBox.Effect>
+                <DropShadowEffect/>
+            </ListBox.Effect>
+        </ListBox>
     </Grid>
 </UserControl>

@@ -20,5 +20,10 @@ namespace PokemonLike.Views
         {
 
         }
+
+        private void SpellsManagementControl_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
