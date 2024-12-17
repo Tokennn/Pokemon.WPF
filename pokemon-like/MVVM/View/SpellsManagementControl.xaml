@@ -19,7 +19,7 @@
         </StackPanel>
 
         <!-- Spells List -->
-        <ListBox x:Name="SpellsListBox" Grid.Row="1" DisplayMemberPath="Name" SelectionChanged="SpellListBox_SelectionChanged">
+        <ListBox x:Name="SpellsListBox" Grid.Row="1" DisplayMemberPath="Name" SelectionChanged="SpellListBox_SelectionChanged" Background="#FF8C8C8C">
             <ListBox.Effect>
                 <DropShadowEffect/>
             </ListBox.Effect>

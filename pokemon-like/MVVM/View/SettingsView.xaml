@@ -21,12 +21,7 @@
                 <DropShadowEffect/>
             </TextBox.Effect>
         </TextBox>
-        <Button Grid.Row="3" Content="Test Connection" Click="TestConnection_Click" HorizontalAlignment="Left" Style="{StaticResource PokemonButtonStyle}" Margin="31,54,0,-100" Width="140" Foreground="White" Background="#FF0016CC" FontSize="11" FontFamily="Ravie" Grid.ColumnSpan="2" >
-            <Button.Effect>
-                <DropShadowEffect/>
-            </Button.Effect>
-        </Button>
-        <Button Grid.Row="3" Content="Save Settings" Click="SaveSettings_Click" HorizontalAlignment="Right" Margin="0,54,25,-100" Style="{StaticResource PokemonButtonStyle}" Width="145" Background="#FFFFFA25" Foreground="Black" FontFamily="Ravie" FontSize="12" Grid.ColumnSpan="2" >
+        <Button Grid.Row="3" Content="Save Settings" Click="SaveSettings_Click" HorizontalAlignment="Center" Margin="0,61,0,-107" Style="{StaticResource PokemonButtonStyle}" Width="145" Background="#FFFFFA25" Foreground="Black" FontFamily="Ravie" FontSize="12" Grid.Column="1" >
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
